@@ -19,7 +19,9 @@ body{
     text-rendering: optimizeSpeed;
     font-family: 'Kumbh Sans', sans-serif;
 
-    background: url(./images/bg-pattern-top.svg)no-repeat top   ;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -284px left -9px, bottom -216px right -58px;
     background-size: contain;
     background-color: var(--Dark-cyan);
 }
